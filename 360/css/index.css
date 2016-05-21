@@ -1,0 +1,220 @@
+/* CSS Document */
+body{ margin:0 auto; padding:inherit; overflow:auto;}
+input{cursor: pointer}
+a{cursor: pointer}
+button{cursor: pointer}
+.skin1{width:1350px; height:0px;overflow:hidden; background-color:#CCCCCC; }
+
+
+/**遮罩层**/
+#bigDiv{ width:100%; height:600%; background-color:#333333; filter:alpha(opacity:80);opacity:0.7; position:absolute; z-index:10; top:0px; margin:0px; display:none}
+#smallDiv{ width:1100px; height:400px; border:solid #333333; border-width:1px; background-color:#FFFFFF; margin-left:120px; margin-top:220px;position:absolute; z-index:10; display:none}
+#smallDivLeft{ width:300px; height:400px; float:left; background-color:#CCCCCC}
+#websiteTitle{ width:300px; height:140px; line-height:140px; text-align:right; vertical-align:middle}
+#addWebsiteTittle{ width:300px; height:60px; line-height:60px; text-align:right; vertical-align:middle;}
+#choiceWebsiteTitle{ width:300px; height:200px;line-height:200px; text-align:right; vertical-align:middle;}
+
+.websiteStyle{ float:left; width:80px; height:20px; margin-left:10px; margin-top:5px; text-align:20px; text-align:center; vertical-align:middle;}
+
+
+.websiteStyleA{ text-decoration:none; color:#000000; font-size:14px; font-family:"宋体"; }
+.websiteStyleA:hover{ text-decoration:underline; color:#FF0000}
+
+#smallDivRight{ width:800px; height:400px; float:left;}
+.websiteTitleSpan{ color:#40AA00}
+#closeDiv{ width:800px; height:40px; border-left-style:solid; border-left-color:#666666; border-width:1px; background-color:#CCCCCC}
+#closeDiv1{ width:150px; height:40px; line-height:40px; text-align:center; vertical-align:middle; float:left; }
+#closeDiv2{ width:600px; height:40px; line-height:40px; text-align:left; vertical-align:middle; float:left; }
+#closeDiv2 a{ font-size:12px; font-family:"宋体"; color:#40AA00;}
+#closeDiv3{ width:50px; height:40px; float:left;}
+.closeDiv{cursor: pointer; width:20px; height:20px; border:solid #999999; border-width:1px; margin-left:20px; margin-top:8px; line-height:20px; text-align:center; vertical-align:middle}
+.closeDiv a{ text-decoration:none; font-size:18px; font-weight:bold; color:#FFFFFF}
+.closeDiv a:hover{ color:#40AA00}
+#websiteList{ width:800px; height:100px;  position:absolute}
+.span1{ font-size:16px; color:#000000; font-family:"宋体"; font-weight:bold}
+.span2{ font-size:12px; color:#666666; font-family:"宋体";}
+#addWebsite{ width:800px; height:60px; line-height:60px; text-align:left; margin-top:100px; overflow:hidden; vertical-align:middle;}
+.topBorderStyle{ border-top-style:dashed; border-top-color:#40AA00; border-top-width:1px;}
+#addWebsite span{ font-size:14px; font-family:"宋体"; color:#000000; margin-left:50px;}
+
+.websiteName{ width:200px; height:25px; border:solid #666666; border-width:1px;}
+.websiteBtn{ width:50px; height:25px; background-color:#40AA00; color:#FFFFFF; margin-left:60px; border:none}
+#choiceWebsite{ width:800px; height:200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#skinNav{ width:1350px; height:32px;  background-color:#333333; position:relative; z-index:100}
+
+#skinNavMain{ width:1000px; height:32px; }
+#skinNavMainLeft{ width:120px; height:32px;;left:0px;line-height:33px;vertical-align:middle;  text-align:center; float:left}
+#skinNavMainLeft span{ font-size:16px; font-family:"楷体"; color:#FFFFFF}
+
+#skinNavMainCenter{ width:450px; height:22px; margin-top:9px; margin-left:20px; float:left; }
+#skinNavMainCenter ul{ margin:0px; padding:0px; list-style:none;}
+#skinNavMainCenter ul li{ float:left; width:60px; height:22px;line-height:22px;vertical-align:text-bottom;  text-align:center;}
+#skinNavMainCenter ul li a{ font:"楷体"; color:#FFFFFF; font-size:13px; text-decoration:none}
+#skinNavMainCenter ul li a:hover{ color:#40AB06;font-weight:bold}
+
+#skinNavMainRight{ width:250px; height:22px; margin-top:9px; float:left; }
+#skinNavMainRight ul{ margin:0px; padding:0px; list-style:none;}
+#skinNavMainRight ul li{ float:left; width:100px; height:22px; margin-left:10px;line-height:22px;vertical-align:text-bottom;text-align:center;}
+#skinNavMainRight ul li a{ font:"楷体"; color:#FFFFFF; font-size:13px; text-decoration:none}
+#skinNavMainRight ul li a:hover{ color:#40AB06;font-weight:bold}
+
+#skinNavBtn{ float:left; margin-left:90px;}
+#skinNavBtns{ width:60px; height:32px; background-color:#40AB06; font-size:11px; color:#FFFFFF; border:none;line-height:32px;vertical-align:text-bottom;text-align:center;}
+
+#skinBox{ width:100%; height:308px; background-color:#CCCCCC; }
+#skinListDiv{ width:1000px; height:300px;}
+
+#skinListDivLeft{ width:60px; height:300px; float:left;position:relative; z-index:5}
+.pifu-LeftBtn{ width:40px; height:80px; line-height:80px; text-align:center; vertical-align:middle; top:100px; left:0px;opacity: 0.1;filter:alpha(opacity=10); background-color:#000000; position:absolute; z-index:10 }
+.pifu-LeftBtn span{ font-size:46px; color:#FFFFFF;}
+
+#skinListDivRight{ width:60px; height:300px;float:left;position:relative; z-index:5 }
+
+.pifu-RightBtn{ width:40px; height:80px; line-height:80px; text-align:center; vertical-align:middle; top:100px; left:20px;opacity: 0.1;filter:alpha(opacity=10); background-color:#000000; position:absolute; z-index:10 }
+.pifu-RightBtn span{ font-size:46px; color:#FFFFFF;}
+
+
+
+#skinListDivCenter{ width:870px; height:300px;float:left;}
+
+
+.pifuBox{ width:182px; height:100px; border:solid #666666; border-width:1px; float:left; margin-left:26px; margin-top:30px; border:solid #333333; border-width:1px; background-repeat:no-repeat}
+.skinBox-filte1{ display:none; position:absolute;z-index:10; height:25px; width:182px;margin-top:75px; background-color:#666666;opacity: 0.5;filter:alpha(opacity=50); }
+.skinBox-filte2{ display:none; position:absolute;z-index:11; height:25px; width:182px;margin-top:75px; line-height:25px; text-align:center; vertical-align:middle; color:#FFFFFF; font-family:"宋体"; font-size:14px}
+.pifuBox img{ width:182px; height:100px; z-index:9}
+
+
+
+.top1{width:100%;height:34px;background-color:#000000;opacity:0.3;;filter:alpha(opacity=30); }
+.top-changes{width:100%;height:0px;background-color:#000000;opacity:0.5;;filter:alpha(opacity=50); }
+.top2{width:100%;height:34px; top:0px; left:0px; position:absolute; z-index:2}
+
+
+#top{width:100%;height:34px;top:0px; left:0px; position:absolute; z-index:10}
+#top-main{ width:1000px;height:34px;}
+
+/*设置主页按钮样式：*/
+#setMainpageStyle{ width:111px; height:29px;position:absolute; padding:0px;}
+
+
+
+#setWordCenter{ width:100px; height:24px; margin-top:5px; margin-left:10px;float:left;position:absolute;line-height:24px;  vertical-align:middle;  text-align:center; position:relative; z-index:99}
+#setWordCenter a{ text-decoration:none; font-family:"宋体"; font-size:12px; color:#FFFFFF}
+.setMainpageOn{ border:solod #CCCCCC; border-width:0.2px; background-color:#666666}
+#setMainpageEnd{ width:57px; height:34px; background-color:#00CC66; margin-left:443px;float:left}
+#setMainpageNew{ width:57px; height:34px; background-color:#FF6666; margin-left:500px;float:left ;position:absolute;}
+
+#Feedback{ width:48px; height:34px; margin-left:830px; float:left;position:absolute}
+#Feedback a{ text-decoration:none; font-family:"宋体"; font-size:12px; color:#FFFFFF;}
+#Feedback a:hover{ text-decoration:underline}
+
+#skinPeeler{width:48px; height:34px; margin-left:898PX; float:left; position:absolute}
+#skinPeeler a{ text-decoration:none; font-family:"宋体"; font-size:12px; color:#FFFFFF;}
+#skinPeeler a:hover{ text-decoration:underline}
+
+
+/*header*/
+#header{ width:100%; height:170px; margin-top:34px; padding:0px;}
+
+#headerTop{ width:1000px; height:70px; margin-left:12%;}
+#headerTopLeft{ width:248px; height:70px; float:left}
+<!--weather：天气-->
+#headerTopCenter{ width:550px; height:70px;  float:left}
+<!--mail：邮箱-->
+#headerTopRight{ width:202px; height:70px;  float:left }
+
+
+/*searchMenu*/
+#headerFoot{ width:1000px; height:88px;}
+#seachMenu{ width:1000px; height:33px;  }
+#seachMenus{ width:550px; height:33px; margin-left:60px;}
+#seachMenus ul{margin:0px; padding:0px;list-style:none}
+#seachMenus ul li{ float:left; width:35px; height:16px; list-style:none; margin-left:13px;line-height:33px;  vertical-align:middle;  text-align:center;}
+#seachMenus ul li a{ text-decoration:none; font-family:"黑体";font-size:16px; color:#000000; }
+
+/*searchEngine*/
+#searchEngine{ width:248px; height:66px;; float:left}
+#searchEngines{ width:80px; height:40px; margin-left:160px; margin-top:2px; background-color:#D4EB98; border:none; font-size:20px;line-height:50px;  vertical-align:middle;  text-align:right; }
+#searchEngines option{text-align:center; width:100px; height:40px; line-height:40px;border:none}
+/*searchBox*/
+#searchBox{ width:550px; height:66px; float:left}
+#searchBox input{ background-color:#FFFFFF; width:535px; height:40px; margin-left:7px; margin-top:2px; border:solid  #000000; border-width:1px;}
+/*searchBtn*/
+#searchBtn{ width:202px; height:66px; float:left}
+#searchBtn button{ width:100px; height:40px; background-color:#CCCCCC; margin-left:2px; margin-top:2px; border:solid  #000000; border-width:1px;}
+#searchBtn button span{ color:#000000; font:"宋体"; font-size:16px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Menu部分*/
+#menu{ width:1000px; height:35px;}
+#menu ul{ margin:0px; padding:0px;list-style:none}
+#menu ul li{ float:left; width:110.2px; height:35px;line-height:30px;  vertical-align:middle;  text-align:center; background-color:#FFFFFF; border-right:solid #669966; border-right-width:1px;}
+#menu ul li a{ text-decoration:none; text-align:center; font-family:"宋体";font-size:14px; color:#000000;}
+#menu ul li a:hover{ color:#FF0000}
+
+/*main部分*/
+#main{ width:1000px;  background-color:#FFFFFF; margin-top:12px;}
+<!--background-color=transparent：设置Iframe透明-->
+.pageIframe{background-color=transparent; width:100%;}
+
+/*foot部分*/
+#foot{ width:100%; height:30px; background-color:#919191; padding-top:16px;}
+#footMain{ width:1000px; height:14px; }
+#footMain ul{ margin:0px; padding:0px;list-style:none}
+#footMain ul li{ list-style:none; margin-left:24px; float:left;}
+#footMain ul li a{ text-decoration:none; text-align:center; font-family:"宋体";font-size:10px; color:#FFFFFF}
+#footMain ul li a:hover{ color:#FF0000}
+#footMain ul li span{font-family:"宋体";font-size:10px; color:#FFFFFF}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**setScroll**/
+#setScroll{ position: absolute; z-index:9;left:1175px;top:350px;}
+#setScroll ul{ margin:0px; padding:0px;}
+#setScroll ul li{ list-style:none; width:80px; height:34px; line-height:34px; margin-top:5px; vertical-align:middle; text-align:center; background-color:#FFFFFF}
+#setScroll ul li img{ vertical-align:middle}
+#setScroll ul li a{ text-decoration:none; font-size:12px; font-family:"宋体"; color:#000000}
+#setScroll ul li a:hover{}
+
+
+
+
+

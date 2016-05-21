@@ -1,0 +1,226 @@
+<!DOCTYPE html  "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<!--CSS兼容IE11-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1″>
+<!--引入该页面CSS样式文件-->
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<script type="text/javascript" src="js/setDivChangeHight.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<title>无标题文档</title>
+</head>
+<body >
+<img src="img/pifu8.jpg"  width="100%" height="100%" style="z-index:-1; position:fixed" />
+<!--遮罩层STAR-->
+<div id="bigDiv"></div>
+<div id="smallDiv">
+  <div id="smallDivLeft">
+    <div id="websiteTitle"><span class="websiteTitleSpan">我添加的网址：</span></div>
+    <div id="addWebsiteTittle" > <span class="websiteTitleSpan">手动添加：</span> </div>
+    <div id="choiceWebsiteTitle" ><span class="websiteTitleSpan">从推荐中添加：</span></div>
+  </div>
+  <div id="smallDivRight">
+    <div id="closeDiv">
+      <div id="closeDiv1"><span class="span1">管理我的网址</span></div>
+      <div id="closeDiv2"><span class="span2">你有什么建议，或者遇到什么问题，</span><a href="#">点此联系我们>></a></div>
+      <div id="closeDiv3">
+        <div class="closeDiv" onclick="choseAddWebsiteDiv()"><a  href="#">X</a></div>
+      </div>
+    </div>
+    <div id="websiteList" ></div>
+    <div id="addWebsite" class="topBorderStyle"> <span>网站名称：</span>
+      <input type="text" id="webName" class="websiteName"/>
+      <span>网址：</span>
+      <input type="text" id="webUrl"  class="websiteName"/>
+      <input class="websiteBtn" type="button" value="添加"  title="添加本标签" onclick="addNewWebsite()" />
+    </div>
+    <div id="choiceWebsite" class="topBorderStyle"></div>
+  </div>
+</div>
+<!--遮罩层END-->
+<!--网页自动居中-->
+<center>
+<!--设置皮肤Div-->
+<div class="skin1" id="skin">
+  <div id="skinNav">
+    <div id="skinNavMain">
+      <div id="skinNavMainLeft"><span>装扮我的主页</span></div>
+      <div id="skinNavMainCenter">
+        <ul>
+          <li><a href="#">最热</a></li>
+          <li><a href="#">最新</a></li>
+          <li><a href="#">明星</a></li>
+          <li><a href="#">卡通</a></li>
+        </ul>
+      </div>
+      <div id="skinNavMainRight">
+        <ul>
+          <li><a href="#">不使用背景皮肤</a></li>
+          <li><a href="#">皮肤建议与反馈</a></li>
+        </ul>
+      </div>
+      <div id="skinNavBtn">
+        <input value="收起" id="skinNavBtns"  title="关闭" onclick="closeDiv()" />
+      </div>
+    </div>
+    <div id="skinBox">
+      <div id="skinListDiv">
+        <div id="skinListDivLeft">
+          <div class="pifu-LeftBtn" id="pifu-leftbtn"><span><</span></div>
+        </div>
+        <div id="skinListDivCenter">
+         
+		  <div class="pifuBox" id="pifuBox" onmouseover=" showSkinTitle()">
+		     <div class="skinBox-filte1"></div>
+			 <div class="skinBox-filte2">浪漫雪夜</div>
+			 <img src="img/pifu1.jpg" />
+		  </div>
+		  
+		  
+		  
+        </div>
+        <div id="skinListDivRight">
+          <div class="pifu-RightBtn" id="pifu-rightbtn"><span>></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!--top：完成-->
+  <div class="top1" id="menubar"></div>
+  <div id="top">
+  <!--top DIV框架-->
+    <div id="top-main">
+      <!--设置导航按钮:实现-->
+      <div id="setMainpageStyle"  >
+        <div id="setWordCenter" onmousemove="this.className='setMainpageOn'" onmouseout="this.className='setMainpageStyle'" > <a href="http://hao.360.cn/sub/sethomepage.html"  target="_blank">设360主页为首页</a> </div>
+      </div>
+   
+      <!--反馈意见按钮：实现-->
+      <div id="Feedback">
+        <div id="setWordCenter"> <a href="http://feedback.hao.360.cn/" target="_blank">反馈意见</a> </div>
+      </div>
+      <!--更换皮肤按钮：未实现-->
+      <div id="skinPeeler">
+        <div id="setWordCenter"> <a  title="点击设置皮肤" onclick="openDiv()" href="#">换肤</a> </div>
+        <div align="left"></div>
+      </div>
+    </div>
+	-->
+  </div>
+  <!--header:完成-->
+  <div id="header">
+    <!--1.LOGO、天气、邮箱模块：-->
+    <div id="headerTop">
+      <!--360Logo:实现-->
+      <div id="headerTopLeft"> <img width="208px;" height="44px;" src="img/t0151320b1d0fc50be8.png" style=" margin-top:13px; margin-left:10px;" /> </div>
+      <!--weather:天气模块：未实现-->
+      <div id="headerTopCenter"></div>
+      <!--mail:邮箱模块：未实现-->
+      <div id="headerTopRight"></div>
+    </div>
+    <!--2.search：搜索模块-->
+    <div id="headerFoot">
+      <!--searchMenu：搜索菜单-->
+      <div id="seachMenu">
+        <div id="seachMenus">
+          <ul>
+            <li><a href="#">网页</a></li>
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">视频</a></li>
+            <li><a href="#">图片</a></li>
+            <li><a href="#">音乐</a></li>
+            <li><a href="#">微博</a></li>
+            <li><a href="#">地图</a></li>
+            <li><a href="#">问答</a></li>
+            <li><a href="#">购物</a></li>
+            <li><a href="#">机票</a></li>
+            <li><a href="#">汽车</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--search:引擎、搜索框、搜索按钮-->
+      <!--searchEngine:搜索引擎-->
+      <div id="searchEngine">
+        <select id="searchEngines">
+          <option  value="1">百度</option>
+          <option  value="2">必应</option>
+          <option  value="3">必应</option>
+        </select>
+      </div>
+      <!--searchBox:搜索框-->
+      <div id="searchBox">
+        <input type="text" name="fname" />
+      </div>
+      <!--searchBtn:搜索按钮-->
+      <div id="searchBtn">
+        <button type="button" ><span>好搜一下</span></button>
+      </div>
+    </div>
+  </div>
+  <!--menu:完成-->
+  <div id="menu">
+    <ul>
+      <li><a href="#">我的主页</a></li>
+      <li><a href="#">新闻头条</a></li>
+      <li><a href="#">电视剧</a></li>
+      <li><a href="#">最新电影</a></li>
+      <li><a href="#">小游戏</a></li>
+      <li><a href="#">小说大全</a></li>
+      <li><a href="#">旅游度假</a></li>
+      <li><a href="#">网上购物</a></li>
+      <li style=" border:none"><a href="#">好药特惠</a></li>
+    </ul>
+  </div>
+  <!--main-->
+  <div id="main">
+    <!--scrollDiv-->
+    <div id="setScroll">
+      <ul>
+        <li><img src="img/t01ce61450cc899f482.png" /><a href="#">笑话</a></li>
+        <li><img src="img/t01df4226972e76c4c1.png" /><a href="#">看片</a></li>
+        <li><img src="img/t01b6bee664f5b1d061.png" /><a href="#">购物</a></li>
+        <li><img src="img/t016bc47051dd20eda0.png" /><a href="#">游戏</a></li>
+        <li onclick="pageScroll()" id="toTop"><a href="#">回顶部</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--页面Iframe框架：完成-->
+  <div style="width:100%">
+    <div style="width:1000px;">
+      <iframe id="pageIframe" class="pageIframe"allowtransparency="true" src="main.html"onload="javascript:dyniframesize('pageIframe');"   scrolling="no" frameborder="0"> </iframe>
+    </div>
+  </div>
+  <!--foot:完成-->
+  <div id="foot">
+    <div id="footMain">
+      <ul>
+        <li><a href="http://corp.360.cn/" target="_blank">Investor Relations</a></li>
+        <li><a href="http://hao.360.cn/about.html"  target="_blank">关于我们</a></li>
+        <li><a href="http://corp.360.cn/"  target="_blank">安全保障</a></li>
+        <li><a href="http://hr.360.cn/zhiweilist.html#wzdh"  target="_blank">360招聘</a></li>
+        <li><a href="http://sealinfo.trustutn.org/info?sn=L002001201304277286665"  target="_blank">联盟品牌认证</a></li>
+        <li><span class="footSpan">Copyright 360.cn. All Rights Reserved.</span></li>
+        <li><a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=7ZmtWf7hL5nzZ1TPVWKJPbzYM1LxGHsfjYtfvTr5DhLyG6K4TDrc!666242405" target="_blank">京ICP证080047号</a></li>
+        <li><a href="http://www.bjgaj.gov.cn/web/"  target="_blank">京公网安备110000000006号</a></li>
+      </ul>
+    </div>
+  </div>
+</center>
+<SCRIPT LANGUAGE="JavaScript">  
+function sc1(){ 
+        var obj1= document.getElementById("setScroll");
+        var obj2= document.getElementById("toTop");
+        obj1.style.top=(document.documentElement.scrollTop+(document.documentElement.clientHeight-document.getElementById("setScroll").offsetHeight)/2)+80+"px"; 
+        obj.style.left=(document.documentElement.scrollLeft+(document.documentElement.clientWidth-document.getElementById("setScroll").offsetWidth)-50)+"px";
+
+}  
+window.onscroll=sc1;  
+window.onresize=sc1;  
+window.onload=sc1;  
+</SCRIPT>
+</body>
+</html>
